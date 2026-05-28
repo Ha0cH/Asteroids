@@ -10,3 +10,4 @@ wheels/
 .venv
 
 logger.py
+game_events.jsonl
