@@ -81,16 +81,15 @@ bash uv run main.py
 
 ---
 
-## What I Learned
+## Technical Concepts Practiced
 
-Through this project, I practiced:
-- Class inheritance
-- Method overriding
+- Object-oriented programming
+- Inheritance and polymorphism
 - Delta-time game loops
-- Pygame rendering
-- Sprite-based architecture
+- Sprite groups and collision systems
+- Vector-based movement and rotation
+- Real-time input handling
 - Git and GitHub workflows
-- Python type hints
 
 ---
 
