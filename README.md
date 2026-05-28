@@ -8,18 +8,26 @@ This project was created to practice:
 - Sprite systems
 - Vector math and rotation
 - Real-time keyboard input
-- Collision-ready game architecture
+- circle-based collision system
 
 ---
 
+## Preview
+
+![Asteroids Screenshot](./assets/Screenshot.png)
+
 ## Features
 
-- Player-controlled spaceship
-- Smooth rotation using vector math
-- Real-time movement updates using delta time (dt)
-- Object-oriented game structure
-- Pygame sprite integration
-- Collision-ready entity system
+- Player-controlled spaceship with rotation and forward/backward movement
+- Real-time keyboard controls using `A`, `D`, `W`, `S`, and `Space`
+- Projectile shooting with a cooldown system
+- Random asteroid spawning from screen edges
+- Moving asteroids with variable size, speed, and direction
+- Circle-based collision detection between player, asteroids, and shots
+- Asteroids split into smaller pieces when shot
+- Game over condition when the player collides with an asteroid
+- Sprite groups for updating, drawing, asteroids, and shots
+- Delta-time based movement for smoother frame-independent gameplay
 
 ---
 
@@ -34,7 +42,8 @@ This project was created to practice:
 
 ### Clone the repository
 
-bash git clone https://github.com/YOUR_USERNAME/Asteroids.git cd Asteroids 
+bash git clone https://github.com/Ha0cH/Asteroids.git
+cd Asteroids
 
 ### Create and activate a virtual environment
 
@@ -64,8 +73,11 @@ bash uv run main.py
 
 | Key | Action |
 |---|---|
+| W | Move forward |
+| S | Move backward |
 | A | Rotate left |
 | D | Rotate right |
+| Space | Shoot |
 
 ---
 
